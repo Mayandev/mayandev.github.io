@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: Mayandev's Blog
+subtitle: 有趣的灵魂
 description: 自律给我自由
 keywords:
 author: Mayandev
@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://mayandev.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -81,4 +81,21 @@ deploy:
   type: git
   repo: 
     github: https://github.com/Mayandev/mayandev.github.io
+    coding: https://dev.tencent.com/u/mayandev/p/mayandev.coding.me
   branch: master
+
+sitemap: 
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+lazyload:
+  enable: true
+  onlypost: false
+  # loadingImg: /images/placeholder.gif
