@@ -4,7 +4,7 @@ date: 2018-06-16 09:38:28
 tags:
   - 科学上网
   - 工具
-categories: 销率工具
+categories: 效率工具
 summary_img: https://raw.githubusercontent.com/Mayandev/mayandev_blog_image/master/blog/science-funck-net-0.jpeg
 ---
 

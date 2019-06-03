@@ -53,7 +53,8 @@ categories: 文档
  - 管理教师基本信息
 
 ### 1.3.2 用例图
-![](https://raw.githubusercontent.com/Mayandev/mayandev_blog_image/master/images20180422171225305.png)
+![](https://raw.githubusercontent.com/Mayandev/mayandev_blog_image/master/blog/poj-analyse-1.png)
+
 
 
 
@@ -188,13 +189,13 @@ categories: 文档
 
 程序题智能批改系统是一个小型的在线编程评判系统，系统共11个实体类型，下图显示了它们之间的所有模型和关系。
 
-![](https://raw.githubusercontent.com/Mayandev/mayandev_blog_image/master/images2018050121442219.png)
+![](https://raw.githubusercontent.com/Mayandev/mayandev_blog_image/master/blog/poj-analyse-2.png)
 
 ## 2.2 数据库设计
 
 本系统数据库使用MySQL5.0，一种关系数据库管理系统，数据库将数据保存在不同的表中，而不是将所有数据放在一个大仓库内，增加了速度并提高了灵活性。MySQL所使用的 SQL 语言是用于访问数据库的最常用标准化语言。本系统数据库中数据存放于10张表中，所有“id”键字段都是Java类型的Integer。数据库结构图如下图。
 
-![](https://img-blog.csdn.net/20180501214451857?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3OTU0MDg2/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![](https://raw.githubusercontent.com/Mayandev/mayandev_blog_image/master/blog/poj-analyse-3.png)
 
 
 ## 2.3 界面设计
@@ -212,28 +213,27 @@ categories: 文档
 页面跳转图分别如下图:
 
 
+![](https://raw.githubusercontent.com/Mayandev/mayandev_blog_image/master/blog/poj-analyse-4.png)
 
-![](https://raw.githubusercontent.com/Mayandev/mayandev_blog_image/master/images2018042217135869.png)
+![](https://raw.githubusercontent.com/Mayandev/mayandev_blog_image/master/blog/poj-analyse-5.png)
 
-![](https://raw.githubusercontent.com/Mayandev/mayandev_blog_image/master/images20180422171341345.png)
+![](https://raw.githubusercontent.com/Mayandev/mayandev_blog_image/master/blog/poj-analyse-6.png)
 
-![](https://raw.githubusercontent.com/Mayandev/mayandev_blog_image/master/images20180422171323300.png)
+![](https://raw.githubusercontent.com/Mayandev/mayandev_blog_image/master/blog/poj-analyse-7.png)
 
-![](https://raw.githubusercontent.com/Mayandev/mayandev_blog_image/master/images20180422171332950.png)
-
-![](https://raw.githubusercontent.com/Mayandev/mayandev_blog_image/master/images20180422171349979.png)
+![](https://raw.githubusercontent.com/Mayandev/mayandev_blog_image/master/blog/poj-analyse-8.png)
 
 
 
 ### 2.3.1 页面设计
-![这里写图片描述](https://img-blog.csdn.net/2018042421491297?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3OTU0MDg2/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![](https://raw.githubusercontent.com/Mayandev/mayandev_blog_image/master/blog/poj-analyse-9.png)
 
-![这里写图片描述](https://img-blog.csdn.net/20180501215209469?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3OTU0MDg2/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![](https://raw.githubusercontent.com/Mayandev/mayandev_blog_image/master/blog/poj-analyse-10.png)
 
-![这里写图片描述](https://img-blog.csdn.net/20180424214936629?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3OTU0MDg2/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)	
+![](https://raw.githubusercontent.com/Mayandev/mayandev_blog_image/master/blog/poj-analyse-11.png)
 
 
-![这里写图片描述](https://img-blog.csdn.net/2018042421501017?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3OTU0MDg2/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![](https://raw.githubusercontent.com/Mayandev/mayandev_blog_image/master/blog/poj-analyse-12.png)
 
 本人对下述需求进行了代码实现，使用ssm框架。涉及到Java的动态编译方面的知识，另外，评分通过获取后台数据库中的测试用例，动态执用例进行评分。
 

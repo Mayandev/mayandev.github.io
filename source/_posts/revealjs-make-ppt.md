@@ -5,7 +5,7 @@ tags:
   - 前端
   - js
   - reveal.js
-categories: 前端
+categories: JavaScript
 ---
 
 > 今天教大家使用reveal.js，制作一个简洁优雅的网页ppt。在这之前，你需要一些基本的HTML以及CSS的技能基础。
