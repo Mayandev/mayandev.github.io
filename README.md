@@ -2,7 +2,7 @@
 
 分享学习心得，以及一些高效率工具。
 
-博客地址：mayandev.github.io
+博客地址：[mayandev.github.io](mayandev.github.io)
 
 # 博客界面
 
