@@ -1,6 +1,8 @@
 # Mayandev's Blog
 
-分享学习心得，以及一些高效率工具
+分享学习心得，以及一些高效率工具。
+
+博客地址：mayandev.github.io
 
 # 博客界面
 
