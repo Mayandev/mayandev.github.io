@@ -12,7 +12,6 @@ summary_img: https://mayandev.oss-cn-hangzhou.aliyuncs.com/blog/2019-year-end-0.
 
 ![](https://mayandev.oss-cn-hangzhou.aliyuncs.com/blog/2019-year-end-0.png)
 
-# 年终总结
 
 # 年终总结
 

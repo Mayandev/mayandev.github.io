@@ -1,5 +1,5 @@
 ---
-title: first-record-song
+title: 第一次录音棚录歌
 date: 2020-01-06 10:39:54
 tags:
   - 随笔
