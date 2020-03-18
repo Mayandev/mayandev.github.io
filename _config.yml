@@ -81,7 +81,7 @@ deploy:
   type: git
   repo: 
     github: https://github.com/Mayandev/mayandev.github.io
-    coding: https://dev.tencent.com/u/mayandev/p/mayandev.coding.me
+    coding: https://e.coding.net/mayandev/mayandev.coding.me.git
   branch: master
 
 sitemap: 
