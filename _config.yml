@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Mayandev's Blog
+title: 明远的自留地
 subtitle: 有趣的灵魂
 description: 自律给我自由
 keywords:
-author: Mayandev
+author: 邹明远
 language: zh-Hans
 timezone:
 
@@ -81,7 +81,6 @@ deploy:
   type: git
   repo: 
     github: https://github.com/Mayandev/mayandev.github.io
-    coding: https://e.coding.net/mayandev/mayandev.coding.me.git
   branch: master
 
 sitemap: 
@@ -99,3 +98,17 @@ lazyload:
   enable: true
   onlypost: false
   # loadingImg: /images/placeholder.gif
+
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
