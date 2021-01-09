@@ -1,6 +1,6 @@
 ---
 title: 一个脚本，告别外链跳转
-date: 2020-01-01 10:14:00
+date: 2021-01-9 10:14:00
 tags: 
   - 工具
   - 插件
@@ -9,10 +9,6 @@ summary_img: https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/f1ac205e743707ea
 ---
 
 ![f1ac205e743707eafecf48971fc6037f](https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/f1ac205e743707eafecf48971fc6037f.jpg)
-
-# 一个脚本，告别外链跳转
-
-> 让超链接痛快地把我们送到终点把
 
 现如今的各个 App 以及网站，总是会想尽一切办法，将流量以及内容牢牢地捆绑在自己的护城河之中。
 
