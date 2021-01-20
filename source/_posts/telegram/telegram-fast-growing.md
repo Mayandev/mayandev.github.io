@@ -8,11 +8,9 @@ tags:
 categories: 互联网资讯
 ---
 
-Telegram 在过去一周增长了 2500 万用户，Tele创始人 Durov 在他的个人频道中发表消息，表示 [Telegram 是一种理念，是地球上每个人都有自由权利的理念](https://t.me/durov/147)。
+Telegram 在过去一周增长了 2500 万用户，Telegram创始人 Durov 在他的个人频道中发表消息，表示 [Telegram 是一种理念，是地球上每个人都有自由权利的理念](https://t.me/durov/147)。
 
-
-<script async src="https://telegram.org/js/telegram-widget.js?14" data-telegram-post="durov/147" data-width="100%"></script>
-
+![image-20210115000736664](https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/image-20210115000736664.png)
 
 以下是译文：
 
