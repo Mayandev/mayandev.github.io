@@ -5,7 +5,7 @@
 # Site
 title: 明远的自留地
 subtitle: 有趣的灵魂
-description: 自律给我自由
+description: 生活点滴 & 技术思考
 keywords:
 author: 邹明远
 language: zh-Hans
@@ -106,7 +106,7 @@ feed:
   path: atom.xml
   limit: 20
   hub:
-  content:
+  content: true
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
