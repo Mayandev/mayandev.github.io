@@ -1,6 +1,6 @@
 ---
 title: 翻译 ｜ 新的 CSS 属性： aspect-ratio
-date: 2021-02-1 16:36:00
+date: 2021-02-01 16:36:00
 tags: 
   - 前端
   - CSS
