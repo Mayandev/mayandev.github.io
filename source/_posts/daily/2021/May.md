@@ -14,7 +14,7 @@ categories: 日常记录
 
 顺便记录一下昨天看到的内容。
 
-### 1. 命令
+### 命令
 
 ```bash
 > git mv -f oldfilename newfilename
@@ -22,20 +22,36 @@ categories: 日常记录
 
 这个命令可以在保持 git commit 提交记录的情况下，对文件进行重命名，昨天 ts 重构时有用到
 
-### 2. 文章
+### 文章
 
 - [如何使用 ts 正确姿势的定义 defaultProps](https://medium.com/@martin_hotell/react-typescript-and-defaultprops-dilemma-ca7f81c661c7)
 
-### 3. 新闻
+### 新闻
 
 今天最大的新闻是[袁隆平去世](http://www.xinhuanet.com/photo/2021-05/22/c_1127478719.htm)了，记得小学的课本上就学过关于他的课文，都说他救活了中国人。我家以前家里穷，吃不起啥东西，所以一向比较节俭，不会浪费粮食，勉强也算是对袁老的一种尊重吧。
 
 ## 5 月 23 日
 
-### 1. 文章
+### 单词
+
+今天某个 MR 的描述里面写到「下线」某个页面，用了短语 「take down」，被指出用词不太准确，应该使用 「sunset」，然后 mentor 举了一个很生动的例子。
+
+> take down: 打倒阶级敌人
+> sunset: 送走老朋友
+
+### Snippet
+
+- [一段 JavaScript 代码](https://codepen.io/mayandev/pen/zYZZXoX?editors=0011)，用于将 Map 的 key 和 value 进行互相转换。
+
+```javascript
+const reverseMapKeyValue = (o) => Object.keys(o).reduce((r, k) => Object.assign(r, {[o[k]]: k}), {})
+const object = {foo: 'bar'};
+console.log(reverseMapKeyValue(object)) // {bar: 'foo'}
+```
+### 文章
 
 - [An Introduction to Knowledge Graphs ｜ 知识图谱介绍](http://ai.stanford.edu/blog/introduction-to-knowledge-graphs/)
 
-### 2. GitHub
+### GitHub
 
 - [daisyUI](https://github.com/saadeghi/daisyui)，一个很漂亮的 Tailwind CSS 组件库，压缩后仅仅 2kb
