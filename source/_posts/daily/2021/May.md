@@ -55,3 +55,15 @@ console.log(reverseMapKeyValue(object)) // {bar: 'foo'}
 ### GitHub
 
 - [daisyUI](https://github.com/saadeghi/daisyui)，一个很漂亮的 Tailwind CSS 组件库，压缩后仅仅 2kb
+
+
+
+## 5 月 24 日
+
+### 网站
+
+- [https://schemeflood.com](https://schemeflood.com)，这个网站很有意思，可以检测你电脑安装了那些应用。原理很简单，利用浏览器的 Url Scheme 功能，监听是否打开新的窗口。比如当打开 TG 频道页面时，浏览器自动弹出一个提示框让用户决定是否打开客户端，但是如果没有安装该客户端，那么就不会出现这个提示框。通过收集的数据，可以对用户进行一个很好的画像处理。当然，这样的检测肯定是不完整的，因为不是所有的网页都做了 App 启动的功能。
+
+
+
+
