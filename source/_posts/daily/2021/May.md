@@ -64,6 +64,34 @@ console.log(reverseMapKeyValue(object)) // {bar: 'foo'}
 
 - [https://schemeflood.com](https://schemeflood.com)，这个网站很有意思，可以检测你电脑安装了那些应用。原理很简单，利用浏览器的 Url Scheme 功能，监听是否打开新的窗口。比如当打开 TG 频道页面时，浏览器自动弹出一个提示框让用户决定是否打开客户端，但是如果没有安装该客户端，那么就不会出现这个提示框。通过收集的数据，可以对用户进行一个很好的画像处理。当然，这样的检测肯定是不完整的，因为不是所有的网页都做了 App 启动的功能。
 
+### TypeScript
 
+今天遇到一个 TS 定义的问题，就是如何将 emun 的 value 映射为 type。举个简单的例子：
 
+```typescript
+enum Sound {
+  Cat = 'Miao',
+  Dog = 'Wang'
+};
 
+// 有没有快捷的方式将其定义为如下的 type
+type AnimalSound = 'Miao' | 'Wang';
+```
+
+搜索了好久，其实直接将枚举设为类型即可。
+
+```typescript
+type AnimalSound = Sound;
+```
+
+如果要将 key 作为 type 类型，也有一种非常快捷的方式。
+
+```typescript
+type Animal = keyof typeof Sound;
+// Animal 的类型会被转换为
+type Animal = 'Cat' | 'Dog';
+```
+
+### 生活
+
+今天打第二针疫苗了，反应没有第一针严重，胳膊没有之前的酸痛的感觉，下午精力还不错。
