@@ -10,6 +10,8 @@ categories: 日常记录
 
 这个月快过完了，我突然想重新建一个网站，来记录自己的生活和工作日常，收录一些平时工作中查询的文章、工具、问题等等。折腾来，折腾去，试用了很多的现代的 Static Site Generate 框架，觉得还是没有 Hexo 博客来的方便。现在这些框架非常裸，自定义能力很高，很多功能都需要自己写代码完成，但是我并不想花费太多时间在这些配置上。
 
+我应该做的事坚持记录这个习惯，而不是花费大量的时间去考虑如何搭建网站。
+
 于是就在博客开一个新的分类，就叫做[日常记录](https://blog.mayandev.top/categories/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/)吧。
 
 顺便记录一下昨天看到的内容。
@@ -106,3 +108,25 @@ type Animal = 'Cat' | 'Dog';
 - [公共 API 集合](https://github.com/public-apis/public-apis)，仓库整理了国外 API 数据 45 大类，将近 700 多条，主要包括动物、动漫、反恶意软件、字典、地图、金融、环境、音乐、开源项目、社会、文本等
 方面，涉及面非常广，可供个人开发者学习使用。
 
+
+## 5 月 25 日
+
+博客部署在了腾讯的 cdn 上，打开速度快了不少。
+
+### Twitter
+
+一条关于 [TikTok Auth 文档的 Twitter]() 还引发了不少的讨论，大致的内容就是 Form 中的 `Login with TikTok` 这样的按钮应该使用 `<button>` 还是 `<a>`，最后支持 `button` 人更多，但我认为就可访问性（Accessablity）来说，`<a>` 似乎会更加的合适。
+
+### 工具
+
+- [share note](https://sharenote.app/)，简洁的笔记分享图片在线工具
+
+- [ray.so](https://ray.so/)，好看的代码图片生成器
+
+
+
+## 5 月 26 日
+
+### 博客
+
+- [张一鸣辞职的看法](https://interconnected.blog/the-new-interconnected-zhang-yimings-resignation/)，写的很好的文章。
