@@ -128,7 +128,25 @@ type Animal = 'Cat' | 'Dog';
 
 ## 5 月 26 日
 
+因为答应了 QA 同学明天需求提测，但是低估了耗时，导致今天写代码写到了凌晨三点。可以不用这样加班，但答应的事情还是保持准守。所以说，不要随便立 flag，不要太高估自己的能力 😭。
+
+
 ### 博客
 
 - [对张一鸣辞职的看法](https://interconnected.blog/the-new-interconnected-zhang-yimings-resignation/)，写的很好的文章。
 
+## 5 月 27 日
+
+今天本科同学来访，带着他参观了一下字节。字节工区不是很大，一栋楼感觉也没什么可以逛的，不像阿里专门设置来访客中心。都说大厂福利真好，呆久了其实也感觉不出来，可能离开了才会觉得好吧。
+
+今天还和 Leader One One 了一下，聊了聊转正的事，问题应该不大。但是唯一的顾虑就是转正可能薪资不会很高，所以下个月面试需要准备起来了。
+
+### GitHub
+
+- [React Query](https://react-query.tanstack.com/overview)，一个适用于react hooks的请求库，今天 code review 的时候有同学提到。
+- [Polyvia](https://github.com/Ovilia/Polyvia)，JavaScript 生成 Low Poly 风格的图片。
+
+### 生活
+
+这瓜包熟？
+![watermalen](https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/watermalen.jpg)
