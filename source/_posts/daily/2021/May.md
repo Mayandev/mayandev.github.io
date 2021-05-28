@@ -150,3 +150,13 @@ type Animal = 'Cat' | 'Dog';
 
 这瓜包熟？
 ![watermalen](https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/watermalen.jpg)
+
+## 5 月 28 日
+
+抱怨无法解决问题，努力寻找方法才是正确的做法。
+
+今天发现自己有个问题，我没办法在某些情绪上和别人产生共情，我不会在言语上安慰正遭受挫折或者伤心低落的人。。。
+
+### 工具
+
+- [网页版的 AirDrop](https://snapdrop.net/)，可以在浏览器通过局域网传输文件
