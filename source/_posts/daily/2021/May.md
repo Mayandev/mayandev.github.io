@@ -99,7 +99,7 @@ type Animal = 'Cat' | 'Dog';
 ```
 
 
-### 博客
+### 文章
 
 - [npm 库 61% 的代码都是相同的](https://habr.com/ru/post/554334/)。今天在飞书群里讨论到了代码复制粘贴的问题，于是我分享了这篇博客出去，引起了一波讨论。
 
@@ -131,7 +131,7 @@ type Animal = 'Cat' | 'Dog';
 因为答应了 QA 同学明天需求提测，但是低估了耗时，导致今天写代码写到了凌晨三点。可以不用这样加班，但答应的事情还是保持准守。所以说，不要随便立 flag，不要太高估自己的能力 😭。
 
 
-### 博客
+### 文章
 
 - [对张一鸣辞职的看法](https://interconnected.blog/the-new-interconnected-zhang-yimings-resignation/)，写的很好的文章。
 
@@ -160,3 +160,20 @@ type Animal = 'Cat' | 'Dog';
 ### 工具
 
 - [网页版的 AirDrop](https://snapdrop.net/)，可以在浏览器通过局域网传输文件
+
+## 5 月 31 日
+
+周末休息的不错，昨天晚上去做了一个全身的推拿，非常的舒适。
+
+为何近日频繁看到“躺平”二词，大家都醒悟了？但是自身条件告诉我自己，我不允许躺平。
+
+### 文章
+
+- [90 行代码的 Webpack](https://mp.weixin.qq.com/s/vpQq3FcJuQkKXvxsq8c9Bw)。提到了一些 Webpack 的原理，并动手实现一个简单的 Webpack。
+- [前端项目 ts 化，类型提取](https://mp.weixin.qq.com/s/P-NsmO46HKnRxroLea0Q_A)。同样的经历，作者的一些技巧还是蛮有帮助的。
+
+### 教程
+- [Google Learn CSS](https://web.dev/learn/css/blend-modes/)。Google 出品的 CSS 教程，内容非常不错
+
+
+
