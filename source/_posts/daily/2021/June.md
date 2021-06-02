@@ -11,10 +11,13 @@ categories: 日常记录
 ### 工具
 
 - [Lotus](https://getlotus.app/)，一个管理 GitHub 通知的桌面端应用，Electron 构建，支持 Linxu、MacOS、Windows 多端。
-### 博客
+### 文章
 
+- [让 Electron 应用更像原生应用](https://getlotus.app/21-making-electron-apps-feel-native-on-mac)，上面的工具 Lotus 的作者介绍了他如何优化自己的 Electron 应用，让其在 Mac 平台更像原生应用。优化的点有首屏渲染、暗黑模式、窗口拖动、首选项等等。
+- [为什么学者不会好好说话？](https://www.douban.com/note/604281459/)，映射到互联网的各种黑话，其实就是故意让人听不懂，让人觉得高大上。
 
-- [让 Electron 应用更像原生应用](https://getlotus.app/21-making-electron-apps-feel-native-on-mac)，Lotus 的作者介绍了他如何优化自己的 Electron 应用，让其在 Mac 平台更像原生应用。优化的点有首屏渲染、暗黑模式、窗口拖动、首选项等等。
+### 书籍
+- [Designing UX for SaaS - Basics, Trends, Processes](https://i7.t.hubspotemail.net/e2t/tc/VX9vx32ZZybJV-n4Qq4S7HXfW4vJbXQ4sjP0pN7Y8_1G5kbT5V3Zsc37CgRr1W5h70L636BWGDW5fwSVn2LfC4PN2xV5T3dylxqW2SBmSh15Nm9NW2cqVwg4X1R13W1W-wQ37MG5N0N5pFGwS8sTryW8F5Z9t8qXPLXW1WSFMp7wWjSrW1C56JW4CdcVBW4RG-g17Nm4WTW91GR-08kgF3kW3V89966NDRfJW9jKrBg8HSZjQW2DhpFs2pt0KwVLkV4Y76lLZ3W71K_Vk68SV39W8PYrlR5HnMfZW6dX7kN18bq5MW5JWNDQ6V-dd0Vk03jq48w-RnN4B5l-LjZPCfW5_nnRM9l9yDsW7YtK2T73XbtcW7DqbNy3zjv2rW59DB7S2L7QJLW8mVp8S34RZ01W26ncmq7sdvY9W4Q7nmC6PvK_hN3NyMQNtp7HBVBXmNX1kr5VQW1Hx-x_3sp09j3bn81)
 
 ## 6 月 1 日
 
