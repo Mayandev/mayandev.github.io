@@ -5,6 +5,17 @@ tags:
   - 日常
 categories: 日常记录
 ---
+
+## 6 月 2 日
+
+### 工具
+
+- [Lotus](https://getlotus.app/)，一个管理 GitHub 通知的桌面端应用，Electron 构建，支持 Linxu、MacOS、Windows 多端。
+### 博客
+
+
+- [让 Electron 应用更像原生应用](https://getlotus.app/21-making-electron-apps-feel-native-on-mac)，Lotus 的作者介绍了他如何优化自己的 Electron 应用，让其在 Mac 平台更像原生应用。优化的点有首屏渲染、暗黑模式、窗口拖动、首选项等等。
+
 ## 6 月 1 日
 
 儿童节快乐，今天微信可以选择一个「卖萌」的状态。
