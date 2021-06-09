@@ -6,7 +6,17 @@ tags:
 categories: 日常记录
 ---
 
+## 6 月 9 日
+
+### 文章
+
+- [由 Fastly 中断事故中学习如何设计友好的错误提示](https://onlineornot.com/what-fastly-outage-can-teach-about-writing-error-messages)，Fastly在2021年6月8日UTC时间10:00后不久，经历了一次重大中断，导致了全世界许多使用其服务的网页无法访问，股市也受到短暂冲击。这篇文章（英文）介绍了我们应该如何设计网站的错误页面。
+
 ## 6 月 7 日
+
+今天下班暴骑了将近 40km，用时 2 个半小时。发现高架下面的自行车道路况非常好，红绿灯以及车辆都比较少，路也很平缓，很适合骑行。
+
+![KeWBXO](https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/KeWBXO.jpg)
 
 ### Snippet
 
@@ -24,6 +34,11 @@ categories: 日常记录
 
 ## 6 月 6 日
 
+周日冲动消费，买了一辆公路车，以后可以开始自己的骑行生活了，甚至有想过从上海骑回学校（武汉）。
+
+![oI7gc7](https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/oI7gc7.jpg)
+
+### 词条
 维基百科新增了「[躺平](https://zh.wikipedia.org/wiki/%E8%BA%BA%E5%B9%B3)」的词条，释义为：年轻人出于对国内压抑的工作文化的失望，与其跟随社会期望坚持奋斗，不如选择“躺平”的处事态度。被视为是对抗社会“内卷化”的一种方式。其具体内涵包括“不买房、不买车、不结婚、不生娃、不消费”及“维持最低生存标准，拒绝成为他人赚钱的机器和被剥削的奴隶”。
 
 ### 文章
