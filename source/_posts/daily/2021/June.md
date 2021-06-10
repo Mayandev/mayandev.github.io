@@ -6,6 +6,12 @@ tags:
 categories: 日常记录
 ---
 
+## 6 月 10 日
+
+### 工具
+
+- [JSON 转 TS 类型的工具](https://quicktype.io/typescript)
+
 ## 6 月 9 日
 
 ### 文章
