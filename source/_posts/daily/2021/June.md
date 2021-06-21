@@ -6,6 +6,13 @@ tags:
 categories: 日常记录
 ---
 
+## 6 月 21 日
+
+时隔 10 天没记录，果然一放假，整个人状态就松散了许多。
+
+### 文章
+- [【手写简易浏览器】系列文章](https://juejin.cn/post/6970706892632883213)
+- [useEffect清理副作用的意义和处理探索](https://www.aspirantzhang.com/learning/react-useeffect-cleanup.html)
 ## 6 月 10 日
 
 ### 工具
