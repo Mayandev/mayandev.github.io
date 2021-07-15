@@ -14,6 +14,9 @@ categories: 日常记录
 
 - [GitHub command that you should definitely know](https://twitter.com/ravikmmr/status/1415252179515060228)，有人在 Twitter 的 Thread 中总结了一些使用的 Git 命令，常学常新。
 
+### 博客
+
+- [搭建一个 React Native 组件库的前前后后](https://juejin.cn/post/6983854006124675108)
 
 
 
