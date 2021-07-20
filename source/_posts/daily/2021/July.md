@@ -6,7 +6,17 @@ tags:
 categories: 日常记录
 ---
 
-## 7 月 19
+## 7 月 20 日
+
+
+### 教程
+- [iOS 官方教程](https://developer.apple.com/tutorials/app-dev-training/)，介绍 Xcode 的基础用法以及如何利用 SwiftUI 和 UIKit 两个框架来开发 iOS 原生 App，渐进式的代码演示，通俗易懂，非常适合初学者。
+
+### 工具
+
+- [一个为 Retina 视网膜屏幕精心设计的 vscode 主题](https://wvsc.dev/)
+
+## 7 月 19 日
 
 ### 文章
 
