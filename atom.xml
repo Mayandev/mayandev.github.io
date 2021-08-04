@@ -6,7 +6,7 @@
   <link href="https://blog.mayandev.top/atom.xml" rel="self"/>
   
   <link href="https://blog.mayandev.top/"/>
-  <updated>2021-07-20T06:45:23.191Z</updated>
+  <updated>2021-08-04T14:15:55.243Z</updated>
   <id>https://blog.mayandev.top/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2021 年 8 月</title>
+    <link href="https://blog.mayandev.top/2021/08/04/daily/2021/Aug/"/>
+    <id>https://blog.mayandev.top/2021/08/04/daily/2021/Aug/</id>
+    <published>2021-08-04T02:36:00.000Z</published>
+    <updated>2021-08-04T14:15:55.243Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="8-月-4-日"><a href="#8-月-4-日" class="headerlink" title="8 月 4 日"></a>8 月 4 日</h2><h3 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a>GitHub</h3><p>自己做的两个小工具：</p><ul><li><a href="https://github.com/Mayandev/interview-2021/" target="_blank" rel="noopener">interview-2021</a>，汇总自己 2021 秋招经历，整理笔试题以及面经，使用 Issues 进行进度管理，自动同步 Google Calendar 的面试日程。</li><li><a href="https://hustlab.github.io/" target="_blank" rel="noopener">互联网实习秋招避坑手册</a>，我发起的一个调研，调研了已实习同学的实习经历。主要收集房租、上下班时间、加班情况、公司福利、团队氛围、所做业务、是否受政策影响等等几个方面的信息，帮助其他同学应对接下来的秋招，也给即将实习的同学做一份参考。</li></ul><h2 id="8-月-3-日"><a href="#8-月-3-日" class="headerlink" title="8 月 3 日"></a>8 月 3 日</h2><h3 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h3><ul><li><a href="https://www.hotjar.com/incoming-feedback/" target="_blank" rel="noopener">Understand what users really think about your site</a>，为网站生成浏览和点击的热力图</li></ul>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;8-月-4-日&quot;&gt;&lt;a href=&quot;#8-月-4-日&quot; class=&quot;headerlink&quot; title=&quot;8 月 4 日&quot;&gt;&lt;/a&gt;8 月 4 日&lt;/h2&gt;&lt;h3 id=&quot;GitHub&quot;&gt;&lt;a href=&quot;#GitHub&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="日常记录" scheme="https://blog.mayandev.top/categories/日常记录/"/>
+    
+    
+    <category term="日常" scheme="https://blog.mayandev.top/tags/日常/"/>
+    
+  </entry>
   
   <entry>
     <title>2021 年 7 月</title>
@@ -31,33 +58,6 @@
         
         
     <summary type="html">&lt;h2 id=&quot;7-月-20-日&quot;&gt;&lt;a href=&quot;#7-月-20-日&quot; class=&quot;headerlink&quot; title=&quot;7 月 20 日&quot;&gt;&lt;/a&gt;7 月 20 日&lt;/h2&gt;&lt;h3 id=&quot;教程&quot;&gt;&lt;a href=&quot;#教程&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="日常记录" scheme="https://blog.mayandev.top/categories/日常记录/"/>
-    
-    
-    <category term="日常" scheme="https://blog.mayandev.top/tags/日常/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2021 年 8 月</title>
-    <link href="https://blog.mayandev.top/2021/07/15/daily/2021/Aug/"/>
-    <id>https://blog.mayandev.top/2021/07/15/daily/2021/Aug/</id>
-    <published>2021-07-15T02:36:00.000Z</published>
-    <updated>2021-08-04T14:06:56.645Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="8-月-4-日"><a href="#8-月-4-日" class="headerlink" title="8 月 4 日"></a>8 月 4 日</h2><h3 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a>GitHub</h3><p>自己做的两个小工具：</p><ul><li><a href="https://github.com/Mayandev/interview-2021/" target="_blank" rel="noopener">interview-2021</a>，汇总自己 2021 秋招经历，整理笔试题以及面经，使用 Issues 进行进度管理，自动同步 Google Calendar 的面试日程。</li><li><a href="https://hustlab.github.io/" target="_blank" rel="noopener">互联网实习秋招避坑手册</a>，我发起的一个调研，调研了已实习同学的实习经历。主要收集房租、上下班时间、加班情况、公司福利、团队氛围、所做业务、是否受政策影响等等几个方面的信息，帮助其他同学应对接下来的秋招，也给即将实习的同学做一份参考。</li></ul><h2 id="8-月-3-日"><a href="#8-月-3-日" class="headerlink" title="8 月 3 日"></a>8 月 3 日</h2><h3 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h3><ul><li><a href="https://www.hotjar.com/incoming-feedback/" target="_blank" rel="noopener">Understand what users really think about your site</a>，为网站生成浏览和点击的热力图</li></ul>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;8-月-4-日&quot;&gt;&lt;a href=&quot;#8-月-4-日&quot; class=&quot;headerlink&quot; title=&quot;8 月 4 日&quot;&gt;&lt;/a&gt;8 月 4 日&lt;/h2&gt;&lt;h3 id=&quot;GitHub&quot;&gt;&lt;a href=&quot;#GitHub&quot; class=&quot;headerlink&quot;</summary>
         
       
     
