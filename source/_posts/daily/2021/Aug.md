@@ -6,6 +6,10 @@ tags:
 categories: 日常记录
 ---
 
+## 8 月 7 日
+
+- [前端模块化的十年征程](https://zhuanlan.zhihu.com/p/265632724)，一篇讲解模块化演进的文章，通篇读下来，有点豁然开朗的感觉。
+
 ## 8 月 5 日
 
 - [一个生成](https://twitter.com/kzhttkhs/status/1420390042564927489?s=21)
