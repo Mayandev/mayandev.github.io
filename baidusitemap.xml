@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.mayandev.top/2021/08/14/tool/github-codespaces/</loc>
+    <lastmod>2021-08-14</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.mayandev.top/2020/03/18/interview-question-archive/</loc>
+    <lastmod>2021-08-13</lastmod>
+  </url>
+  <url>
     <loc>https://blog.mayandev.top/2021/08/04/daily/2021/Aug/</loc>
     <lastmod>2021-08-07</lastmod>
   </url>
@@ -262,10 +270,6 @@
   </url>
   <url>
     <loc>https://blog.mayandev.top/2017/09/28/javascript-learning-1/</loc>
-    <lastmod>2021-07-18</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.mayandev.top/2020/03/18/interview-question-archive/</loc>
     <lastmod>2021-07-18</lastmod>
   </url>
   <url>
