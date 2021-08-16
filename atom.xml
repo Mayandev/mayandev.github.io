@@ -6,7 +6,7 @@
   <link href="https://blog.mayandev.top/atom.xml" rel="self"/>
   
   <link href="https://blog.mayandev.top/"/>
-  <updated>2021-08-14T00:34:03.669Z</updated>
+  <updated>2021-08-16T02:18:29.078Z</updated>
   <id>https://blog.mayandev.top/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>转载｜项目开发的一些思考</title>
+    <link href="https://blog.mayandev.top/2021/08/16/tech/front-end-project/"/>
+    <id>https://blog.mayandev.top/2021/08/16/tech/front-end-project/</id>
+    <published>2021-08-16T02:36:00.000Z</published>
+    <updated>2021-08-16T02:18:29.078Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>原文链接：<a href="https://ssscode.com/pages/728e7d/#%E5%88%86%E6%9E%90" target="_blank" rel="noopener">https://ssscode.com/pages/728e7d/#%E5%88%86%E6%9E%90</a></p></blockquote><h1 id="项目开发的一些思考"><a href="#项目开发的一些思考" class="headerlink" title="项目开发的一些思考"></a>项目开发的一些思考</h1><h2 id="简单介绍"><a href="#简单介绍" class="headerlink" title="#简单介绍"></a><a href="https://ssscode.com/pages/728e7d/#简单介绍" target="_blank" rel="noopener">#</a>简单介绍</h2><ul><li>项目：低代码</li><li>当前版本：<code>v1.4.0</code></li><li>历史版本：<code>v1.0.0</code>、<code>v1.1.0</code>、<code>v1.2.0</code>、<code>v1.3.0</code></li><li>描述：属于<strong>氚平台</strong>的一个<strong>子应用</strong>，风格方面保持一致</li><li>功能：拖拽、编辑器、svg关系图、流程编辑等</li></ul><h2 id="几个问题"><a href="#几个问题" class="headerlink" title="#几个问题"></a><a href="https://ssscode.com/pages/728e7d/#几个问题" target="_blank" rel="noopener">#</a>几个问题</h2><h3 id="不同场景的项目构建方式"><a href="#不同场景的项目构建方式" class="headerlink" title="#不同场景的项目构建方式"></a><a href="https://ssscode.com/pages/728e7d/#不同场景的项目构建方式" target="_blank" rel="noopener">#</a>不同场景的项目构建方式</h3><ul><li>工程方案：<code>umi</code>、<code>webpack</code>、<code>vite</code></li><li>组件方案：微应用、抽离发布npm包组件</li><li>技术选型：<code>JavaScript</code>、<code>TypeScript</code>（<code>Less</code>、<code>Sass</code>）、状态管理器</li></ul><h3 id="需要持续迭代与维护的项目（效率和成本）"><a href="#需要持续迭代与维护的项目（效率和成本）" class="headerlink" title="#需要持续迭代与维护的项目（效率和成本）"></a><a href="https://ssscode.com/pages/728e7d/#需要持续迭代与维护的项目（效率和成本）" target="_blank" rel="noopener">#</a>需要持续迭代与维护的项目（效率和成本）</h3><ul><li>需求调整：产品需求的变动与迭代，对于已开发完成的代码在受<strong>破坏性</strong>与可<strong>拓展性</strong>方面的能力。</li><li>测试用例：<strong>没有功能测试用例</strong>情况下所做的改动，会影响或<strong>破坏其他功能组件</strong>造成未知问题。</li><li>代码检测：<strong>JS弱类型</strong>与<strong>TS强类型</strong>在功能改动的情况下，对开发效率与安全稳定的影响。</li></ul><h3 id="项目性能及优化"><a href="#项目性能及优化" class="headerlink" title="#项目性能及优化"></a><a href="https://ssscode.com/pages/728e7d/#项目性能及优化" target="_blank" rel="noopener">#</a>项目性能及优化</h3><p>一天的代码<code>5s</code>启动，一周的代码<code>30s</code>启动，一个月的代码<code>1min</code>启动。</p><ol><li>随着项目的不断迭代，功能和模块越来越多，逻辑耦合越来越深，维护成本越来越高，编译时间不断加长、打包产物不断增加</li><li>对于可视化、编辑器等体积占比较大的第三方类库应如何处理</li><li>对于<code>react-dom</code>、<code>antd</code>这种在多个分离的组件内或微应用内都使用的同一类第三方库如何避免重复引入和打包</li><li><code>webpack</code>项目的配置优化：懒加载、压缩、分包、CDN</li></ol><h3 id="开发效率"><a href="#开发效率" class="headerlink" title="#开发效率"></a><a href="https://ssscode.com/pages/728e7d/#开发效率" target="_blank" rel="noopener">#</a>开发效率</h3><ol><li>对于管理后台类的高重复性组件的封装复用</li><li>对于常用方法库与自定义方法的共享使用问题</li></ol><h3 id="规范"><a href="#规范" class="headerlink" title="#规范"></a><a href="https://ssscode.com/pages/728e7d/#规范" target="_blank" rel="noopener">#</a>规范</h3><p>强制性规范插件：</p><ul><li>统一的编辑器规则配置<code>.editorconfig</code></li><li>统一的eslint规范配置<code>.eslint.js</code></li><li>统一的格式化风格<code>.prettierrc.js</code></li><li>统一的git message、git commit规范和提交检测：<code>.commitlintrc.js</code></li></ul><p>约定式规范：</p><ul><li>语义化</li><li>文件、组件、函数方法、常量、样式、type类型等命名规范</li><li>项目文件及文件夹结构规范</li></ul><h3 id="分析"><a href="#分析" class="headerlink" title="#分析"></a><a href="https://ssscode.com/pages/728e7d/#分析" target="_blank" rel="noopener">#</a>分析</h3><p>结合我司自有项目实例及使用场景分析：</p><p><strong>首先</strong>，用户端与管理端使用场景及项目复杂程度大不相同，这里是有一定区别的，所以在工程配置及技术等方面可作出一些调整。</p><p>管理端：</p><ul><li>组件逻辑比较复杂，各模块关联耦合比较多</li><li>所涉及的第三方组件比较多，尤其是一些比较大体积的库</li></ul><p>用户端：</p><ul><li>主要场景是提供给用户使用在管理端已完成配置并发布的应用。因此，这里不存在复杂的配置操作逻辑，更多的是交互和输入展示，而针对这个问题，已把核心组件拆离发布为npm包使用，最终来说就是一个比较简单的，支持登录的管理后台。</li><li>该项目是可以做的比较轻量一些的</li></ul><p><strong>其二</strong>，作为自研可持续迭代的项目，在可维护性与代码质量上需要有一定的保证：</p><ul><li>前面说的一些约定规范和插件可以配合项目</li><li><code>TypeScript</code>的强大之处可充分体现，这里强烈建议使用<code>TS</code>开发，这也是建立在认真编写类型文件的基础上，基本类型定义<code>interface</code>和<code>type</code>几乎可以满足日常大部分场景，泛型使用更多是在复杂组件封装中使用，所以在代码第一层使用中定义好，对于开发犯错和后期维护帮助很大。</li></ul><p>针对我自身的情况分析，在开发导航栏配置模块的时候有几点问题：</p><ol><li>虽然是在<code>TS</code>项目中进行开发，但是<code>type</code>类型并没有做到大部分覆盖，有一些是为了快速完成快发，直接 <code>any</code> 一笔过，有的是因为类型推导出来不匹配报错和警告，而里面可能又掺杂了一些比较麻烦的联合类型和泛型等，为了省事直接 <code>any</code> 梭哈过，当然核心问题还是自身基础不够扎实，才暴露出这些问题。现实问题而言就是需要加强自身基础和能力提高，只有经常使用才能更熟练，遇到问题在所难免，前期肯定要花费一些时间学习，理解吸收了就搞定了这个问题，如果一笔带过先跳过，下次依旧，而对于自身代码质量和项目质量也会积累到其中。只能看自己，或者收集整理下来，有空研究。</li><li>一开始对于整体规划与可拓展方面等缺乏全面仔细的思考，虽然客观来说确实很难考虑的面面俱到，但是有个点就是方案要反复思考完善，抽象的思考不贴切，就需要demo实践去了解流程和逻辑，进而加深自身理解，可有效减少犯错的可能，对于陌生功能模块的开发，前期准备很有必要，最好先查询下<code>GitHub</code>上有可参考的列子，浏览下源码，梳理下逻辑，在 <code>git clone</code> 下来跑跑看，或者可有经验的同事沟通交流交流，很多时候重在一个正确的思路和方向。</li><li>实际开发中，功能迭代，需求调整等，需要对当前功能和代码进行各种各样的拓展和改动，这里存在不少问题和隐患。我们暂且认为是在<code>TS</code>强类型的情况下，认真定义了类型后，首先排除代码执行方面的错误影响。函数、变量、常量、组件等的代码功能的拆分就显得非常重要，在无测试用列的情况下，如果这些代码都拧在一起、耦合性也比较高，在改写代码的时候很容易牵一发而动全身，尽管可以发现比较明显的关联，但不可避免的会影响到其他功能模块。人不是机器，只要写代码就一定会出<code>bug</code>。和react的思想类似，即，每个组件只做一件事，配合TS的检测基本可以避免很多问题了，</li><li>对于一些具有相对独立功能的组件，且存在复用的使用场景，可以考虑拆分抽象完善发布到公司的公共代码组件库提供同事使用。文档要写~</li></ol><p><strong>其三</strong>，和后端的接口约定，文档说明，mock自测</p><ol><li>对于同一类型数据，拿导航栏配置接口举例，保存修改的传参规定的字段formId、action_type、parentId等，在返回接口时就变成了form_id、action、parent_id，这里的parent_id内容都被替换修改了。虽然处理起来也不是很麻烦，但很容易产生误解而出问题。对于字段命名和类型，我觉得前端同学也可以根据自己的需求场景提供给后端同学参考。</li></ol><p><strong>其四</strong>，没有充分使用第三方库，或有些库几乎没有使用，可以使用优秀轻量的第三方库</p><p><strong>其五</strong>，对codereview的思考</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;原文链接：&lt;a href=&quot;https://ssscode.com/pages/728e7d/#%E5%88%86%E6%9E%90&quot; target=&quot;_blank&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://blog.mayandev.top/categories/前端/"/>
+    
+    
+    <category term="前端" scheme="https://blog.mayandev.top/tags/前端/"/>
+    
+    <category term="JavaScript" scheme="https://blog.mayandev.top/tags/JavaScript/"/>
+    
+    <category term="TypeScript" scheme="https://blog.mayandev.top/tags/TypeScript/"/>
+    
+    <category term="框架" scheme="https://blog.mayandev.top/tags/框架/"/>
+    
+  </entry>
   
   <entry>
     <title>GitHub 新功能：Codespaces，随时随地编写代码</title>
@@ -587,39 +621,6 @@
     <category term="CSS" scheme="https://blog.mayandev.top/tags/CSS/"/>
     
     <category term="aspect-ratio" scheme="https://blog.mayandev.top/tags/aspect-ratio/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>《硅谷钢铁侠：埃隆 · 马斯克的冒险人生》读书记录</title>
-    <link href="https://blog.mayandev.top/2021/01/31/book/reading-elon-musk/"/>
-    <id>https://blog.mayandev.top/2021/01/31/book/reading-elon-musk/</id>
-    <published>2021-01-31T14:22:30.000Z</published>
-    <updated>2021-07-18T01:40:31.022Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>记录一下阅读《硅谷钢铁侠：埃隆 · 马斯克的冒险人生 》时的一些 comments 和 thoughts</strong>。</p><hr><blockquote><p>马斯克和弟弟希望说服餐馆、服装店和理发店之类的小企业将自己的业务信息展示在互联网上，让公众通过互联网知道他们的存在。Zip2网站会给这些企业创建一个可搜索的目录，并生成相应的地图。马斯克用比萨店来解释这个概念，他说每个人都应该知道离自己最近的比萨店的位置，并且应该能够获取到达那里的详细信息。这在今天看起来可能很平常——比如Yelp（点评网站）和Google Map（谷歌地图）的结合 ——但是在当时，<strong>甚至连吸了毒品的人都想象不出这种服务</strong>。</p></blockquote><p>Zip2 应该算是 Yelp、大众点评的鼻祖了吧。真的很难想象在 90 年代，互联网才刚刚起步的年代，马斯克竟然已经有这种 idea。就像文章提到：“<strong>甚至连吸了毒品的人都想象不出这种服务</strong>。”</p><hr><blockquote><p>虽然马斯克是一名自学成才的天才程序员，但是他的技术远没有这些新员工熟练。他们看了一眼Zip2的代码，就决定重新改写软件的大部分内容。马斯克对其中一些改动恼怒不已，但这些计算机科学家只需要一小部分代码便可完成目标，远远少于马斯克的。他们习惯于把软件项目划分成模块，从而可以对各个部分进行修改和细化。而马斯克则陷入了自学成才型程序员的经典陷阱，写了很多被开发者称为“毛球”（hairballs）的代码——这些代码庞杂繁复且乱作一团，很容易导致程序因为某些神秘原因而崩溃。这些工程师的到来，也改善了工程团队的工作结构，设定了切实可行的最后期限。</p></blockquote><p>专业的事交给专业的人。</p><hr><blockquote><p>在马斯克的指导下，X.com尝试了一些激进的银行理念。客户只要注册该服务，就能收到20美元的现金卡，如果将该服务成功推荐给朋友，还能额外收到10美元的优惠卡。马斯克还取消了各种零星的手续费和透支罚款。X.com开发了一个个人间支付系统，只需在网站上输入对方的电子邮箱地址，你就可以转账给他们——这是一项非常超前的革新。</p></blockquote><p>X.com 是 Paypal 的前身，它这种分销的模式一直沿用至今，在中国的互联网尤为常见，先砸钱吸引用户，再想办法从用户身上吸血，羊毛出在羊身上。</p><hr><blockquote><p>埃隆是个天才。他事必躬亲并且无所不知。当他问你问题的时候，你很快就会学到，不假思索地回答是不可取的。他想要基于物理学基本定律的答案。他对火箭的物理原理了如指掌，没有人能胜过他。我见识过的他的心算能力，简直不可思议。他可以同时参与两个讨论，一个关于发射卫星，另一个关于我们能否将“龙”飞船送入正确的轨道并送达目的地，然后即时在脑子里解开所有的方程式。他多年以来积累的知识量令人震惊。我永远也不想做那个不得不与埃隆竞争的人。你不妨离开这个行业，做些别的有趣的东西。因为他比你更有谋略、更有智慧，并且执行力也比你强。</p></blockquote><p>马斯克才是被上帝选中的人吧。学习能力极强，执行力极强。</p><hr><blockquote><p>马斯克会时不时地向全公司发送电子邮件，以推行新的规定，或是让大家知道有某件事正在困扰他。其中一封较著名的邮件于2010年5月发出，主题是 “首字母缩写词真恶心”。使用自创缩写词的趋势正在SpaceX蔓延。对缩写词的过度使用严重阻碍了交流，而在我们壮大的同时保持良好的沟通极为重要。对个人而言，零星出现的缩写词似乎并没有那么糟糕，但是如果一千人都在创造缩写词，结果就是随着时间的推移，我们将不得不为每位新员工发放一份巨大的词汇表。实际上，没有人能够记住所有的缩写词，而且因为人们不想在会议中看上去像个笨蛋，他们会沉默地坐在那里，一无所知。这对新员工来说尤其艰难。</p></blockquote><p>字节跳动缩略语也非常的多，记得入职的时有一个表格，整理了大概 300 个缩略术语，大公司都这么喜欢造词的吗？看起来很高大上，其实只是为了让超链接短一些，增加沟通成本罢了。</p><hr><blockquote><p>理想情况下，你希望引擎这类重型部件接近车子的重力中心。这也是为什么赛车的引擎会设计在接近车身中部的位置。传统汽车的设计——将笨重的引擎放在前面，乘客在中部，油箱在后面——很糟糕。对于Model S而言，车的重型零件非常接近重力中心，这样就能带来一系列优质的驾驶体验、汽车性能与较高的安全系数。</p></blockquote><p>我晕电动车，除了特斯拉，特斯拉的乘坐体验真的很棒。</p><hr><blockquote><p>马斯克构想的另一个创举是在车内嵌入一个宽大的触摸屏，那时大型触屏技术还未兴起，iPad也是几年以后才面市的，而当时人们在机场和商店常见的触摸屏大多都粗制滥造。但马斯克通过iPhone看到了这类触屏操作系统的大好前景。</p></blockquote><p>这才知道，Tesla 的电动车 Roadster 在 2008 年就面世了，那时候 iPad 还没出来，但是马斯克就已经把屏幕装进了车里，太伟大了。</p><hr><blockquote><p>2013年5月8日，特斯拉便公布了562亿美元的交易额和高达1100万美元的盈利，这是特斯拉上市以来的首次盈利。这个振奋人心的消息让特斯拉的平均股价在两个月内从30美元飙升至130美元。</p></blockquote><p>现在（2021.1.31）股价793 美元。</p><hr><blockquote><p>正当特斯拉热潮在硅谷盛行时，我抽空参观了福特汽车位于帕洛阿尔托的一个小型研发实验室。当时实验室由扎着马尾辫、穿着拖鞋的工程师T·J·吉利（TJ Giuli）领头，聊起特斯拉他显然充满嫉妒之心。每辆福特汽车里面都装有十几个不同厂家制造的电脑系统，均需要一一调试整合，这复杂的构造是福特汽车经过多年更新迭代遗留下来的结果，在短期内想去繁就简，可能需要停产整顿，而对于福特汽车这样生产压力巨大的汽车公司来说，停产整顿无疑不切实际。</p></blockquote><p>特斯拉的优势在于没有历史遗留的复杂问题，一开始就抓准了智能操作系统的创新关键点分进行研发。</p><hr><blockquote><p>马斯克做到了许多竞争对手错过了或者无法实现的创举，那便是使特斯拉成为一种生活方式。特斯拉卖的不仅仅是汽车，而是一种对未来的大胆想象，一种对科技创新的信任感，正如 10 年前苹果推出 Mac 电脑，以及日后的 iPod 和 iPhone 产品一样，除了苹果狂热支持者以外的普通消费者也会在买了苹果产品和下载 iTunes 等苹果软件后不可自拔地成为苹果生态圈里的一分子。</p></blockquote><p>伟大的产品，总是对未来充满着大胆的想象。iPhone 如此，Tesla 亦然。</p><hr><blockquote><p>马斯克的终极目标依然是把人类变成一种跨越行星的物种。这个想法在很多人看来很愚蠢，但这无疑是马斯克存在的理由。马斯克已经确定，人类的生存取决于能否在另一个星球上建立殖民地，他将奉献自己的一生来实现这一愿望。</p></blockquote><p>YOLO （You only live once）理念的忠实拥护者。</p><hr><blockquote><p>马斯克：我认为，SpaceX在2025年已经能够造好一台推进器和一艘宇宙飞船，能够把很多人和货物送上火星。</p></blockquote><p>还有 5 年，已经很接近了。</p><hr><blockquote><p>马斯克用伤人的话斥责员工的故事越传越多。人们还把这种行为归结为马斯克的另一个古怪的特点。一旦他发现邮件内容里有错别字，就会咬住不放，甚至达到了有错字就无法阅读邮件内容的地步。即使在社交场合中，马斯克也可能会突然从餐桌前站起来，不做任何解释，径直走到外面去看星星，仅仅因为他不愿意跟傻瓜待在一起闲聊。基于这所有的行为，很多人向我总结了马斯克给他们留下的印象，他们觉得马斯克是个在一定程度上自闭的人，他没办法考虑别人的情绪，也没办法顾及别人的福祉。</p></blockquote><p>完美主义者，自大狂，不通人情事故。天才都是这样吗？</p><hr><blockquote><p>当马斯克在2014年宣布特斯拉将公开其所有专利时，分析师们试图确定他是不是在作秀或者其中是否隐藏了不明动机或者圈套。但马斯克的决定就是这么坦率，他希望人们制造并购买电动汽车。马斯克认为，人类的未来取决于此。如果公开特斯拉的专利意味着其他公司能够更容易地制造出电动汽车，那么这对人类来说是有利的，这些理念应该是免费的。愤世嫉俗的人一定会嘲笑他的观点，但马斯克已经计划好这么做，他在解释自己的想法时是真诚的，而且极为真诚。</p></blockquote><p>伟大的人，伟大的公司，他的存在就是为了推动人类的进步吧。</p><hr><blockquote><p>在他的另一本书《再见，平庸世代》（Average Is Over）中，考恩预测未来将是平庸的，贫富差距的分水岭已经很明显。在考恩预测的未来中，人工智能的长足进步将终结如今众多高就业率的工种。在这种环境下还能生存下来的人是很聪明的，能够有效地补充机器和团队的不足之处。至于那些失业者，他们中的很多人将最终为富人打工，做他们的保姆、管家和园丁。考恩没有发现马斯克正在做的哪件事能够改变人类的发展轨迹，使之朝乐观的未来发展。根据考恩的观点，真正有突破性的理念比过去更难出现，因为我们已经挖掘出了大部分的发明。在弗吉尼亚州的一次午餐会面中，考恩说马斯克不是一个天才型的发明家，他只是一个媒体宠儿，而且他对此并不是特别在行。“</p></blockquote><p>人无完人，频繁出现在媒体面前，难免会产生争议，但依然不妨碍马斯克成为全民的偶像。</p><p><strong>完</strong></p><p><strong>本书 🌟🌟🌟🌟🌟 推荐</strong>。</p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;strong&gt;记录一下阅读《硅谷钢铁侠：埃隆 · 马斯克的冒险人生 》时的一些 comments 和</summary>
-        
-      
-    
-    
-    
-    <category term="读书笔记" scheme="https://blog.mayandev.top/categories/读书笔记/"/>
-    
-    
-    <category term="马斯克" scheme="https://blog.mayandev.top/tags/马斯克/"/>
-    
-    <category term="SpaceX" scheme="https://blog.mayandev.top/tags/SpaceX/"/>
-    
-    <category term="特斯拉" scheme="https://blog.mayandev.top/tags/特斯拉/"/>
-    
-    <category term="互联网" scheme="https://blog.mayandev.top/tags/互联网/"/>
     
   </entry>
   
