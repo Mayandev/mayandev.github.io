@@ -1,5 +1,5 @@
 ---
-title: 前端开发这必须知道的 10 个 GitHub 仓库
+title: 前端开发者必须知道的 10 个 GitHub 仓库
 date: 2021-08-21 21:00:00
 tags: 
   - 前端
@@ -19,7 +19,7 @@ summary_img: https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/E8VoYRSVkAQxVwM.
 
 ![github-repo-1](https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/github-repo-1.png)
 
-初学者如果想学习前端开发，但是不知道和学起，推荐查看此仓库。
+初学者如果想学习前端开发，但是不知道从何学起，推荐查看此仓库。
 
 你可以获得有关开发的所有学习路线，笔者在之前的[文章](https://mp.weixin.qq.com/s/KItesrF9ajWuOGU2SUIK3A)中对其进行过翻译。
 
