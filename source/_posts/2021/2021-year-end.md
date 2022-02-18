@@ -39,7 +39,7 @@ summary_img: https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/c94c4865fa6e034d
 
 可爱的室友还制作了一个短片，记录了研一到现在的点滴，开学典礼、唱KTV、看军运会、宿舍电影，一些场景历历在目，看得非常感动。
 
-<iframe src="//player.bilibili.com/player.html?aid=808336373&bvid=BV1f34y1i7jw&cid=488132810&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=808336373&bvid=BV1f34y1i7jw&cid=488132810&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width=700 height=500> </iframe>
 
 至于西藏之旅，可能会单独写篇游记进行分享，敬请期待。
 

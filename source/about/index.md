@@ -10,7 +10,7 @@ type: about
 
 * 🎸 弹弹吉他，当作放松
 * ⚽️ 擅长球类运动，尤其是足球和乒乓
-* 🏃 喜欢慢跑，这里有我的[跑步记录](https://mayandev.top/running)
+* 🏃 喜欢骑行，曾经从一人从[上海骑行至武汉](https://mayandev.top/2021/07/14/life/cycling-trip/)
 * ✍️ 写写文字，记录生活和思考
 * 🎨 学习使用 iPad 画画中
 * 💻 前端工程师，对设计比较感兴趣
