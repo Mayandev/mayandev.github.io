@@ -105,7 +105,7 @@ NoCode 并不是什么新的概念，但在近两年又有了流行的趋势。�
 
 [Sessions](https://sessions.us/) 是一个视频会议工具，但相较于 Zoom、腾讯会议这种传统的办公会议，Sessions 提出了一个 Agenda（议程）的概念，即在会议开始之前，先设置好本次会议的议程，在开会时减少发散。
 
-![agenda-onboarding-video](https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/agenda-onboarding-video.gif?x-oss-process=style/small)
+![agenda-onboarding-video](https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/agenda-onboarding-video.gif)
 
 在会议中集成了 Google Docs、Google Drive、表单、Figma 等等工具，可以一边开会，一边完成协同工作，强调多人协作，提升效率。目前只有 Web 端。
 
@@ -143,7 +143,7 @@ NoCode 并不是什么新的概念，但在近两年又有了流行的趋势。�
 
 🏆：**Opal C1**
 
-![](https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/ezgif-7-06a47b02a7.gif?x-oss-process=style/small)
+![](https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/ezgif-7-06a47b02a7.gif)
 
 [Opal C1](https://opalcamera.com/) 是一个专业的高清网络摄像头，颜值很高，有黑白两种颜色，设计灵感似乎来源于 Mac Pro。除了基础的拍摄外，在电脑端有配套的软件支持调整各种参数，支持和 iPad 一样的人脸追踪，特别适合对画质以及收音有要求的用户。这儿有一个开箱视频（无字幕）。
 
@@ -161,7 +161,7 @@ NoCode 并不是什么新的概念，但在近两年又有了流行的趋势。�
 
 🏆：**Drata**
 
-![c8c3c5cb-b2e5-46b5-9501-a1bd93036344](https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/c8c3c5cb-b2e5-46b5-9501-a1bd93036344.gif?x-oss-process=style/small)
+![c8c3c5cb-b2e5-46b5-9501-a1bd93036344](https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/c8c3c5cb-b2e5-46b5-9501-a1bd93036344.gif)
 
 [Drata](https://drata.com/) 通过持续监测企业的安全状况并自动收集 AWS、GCP、GitHub、Jira、Gusto、G Suite、Office365 c等的控制证据，每年为企业获得和保持 SOC 2 合规性节省数百个小时。
 
@@ -253,7 +253,7 @@ Web3 概念在去年异常火热，加密货币、区块链、元宇宙等等都
 
 🏆：**tl;dv**
 
-![](https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/tlrd.gif?x-oss-process=style/small)
+![](https://mayandev.oss-cn-hangzhou.aliyuncs.com/uPic/tlrd.gif)
 
 [tl;dv](https://chrome.google.com/webstore/detail/video-record-timestamp-no/lknmjhcajhfbbglglccadlfdjbaiifig) 是一个 Chrome 浏览器插件，它可以记录 Google Meet 视频会议中的重要节点，生成摘要/脚本。
 
